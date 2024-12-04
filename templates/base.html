@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student & Course Management System</title>
+    <link href="/static/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Student & Course Management System</h1> 
+        <nav>
+          <a href="/">HOME</a>
+          <a href="/students">STUDENTS</a>
+          <a href="/add-student">ADD STUDENT</a>
+        </nav>
+    </header> 
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
